@@ -25,3 +25,9 @@ steps:
     command: 'build'
     projects: '**/*.csproj'
     arguments: '--configuration $(BuildConfiguration)'
+- task: NuGetCommand@2
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: '047c3c28-df24-4339-b119-838a0bd221b1'
