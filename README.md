@@ -5,7 +5,7 @@ Added AMQP helper class
 Added HealthCheck helper class
 Drop support for .NET Standard 2.0
 
-T-SQL Database Table
+## T-SQL Database Table
 
 ```
 IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='HealthChecks' AND xtype='U')
