@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>ee1cb282-1c79-444f-8baf-cd3b44c97f00</UserSecretsId>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Rodasnet.Infrastructure\Rodasnet.Infrastructure.csproj" />
+	</ItemGroup>
+</Project>
