@@ -1,12 +1,12 @@
-﻿namespace Rodasnet.Infrastructure.Processes
-{
-    using System.Threading.Tasks;
-    using Rodasnet.Infrastructure.Messaging;
-    using Rodasnet.Infrastructure.Messaging.Handling;
-    using System.Text;
-    using System;
-    using Amqp;
+﻿using System.Threading.Tasks;
+using Rodasnet.Infrastructure.Messaging;
+using Rodasnet.Infrastructure.Messaging.Handling;
+using System.Text;
+using System;
+using Amqp;
 
+namespace Rodasnet.Infrastructure.Processes
+{
     /// <summary>
     /// Abstaract class implemented by process managers that use AMQP (also known as Sagas in the CQRS community) to 
     /// publish commands to the command bus.
@@ -19,7 +19,7 @@
     public abstract class MicroserviceProcessManager<T> where T : ICommand
     {
         /*** SHould I mak this a List of ICommand Handlers or should I jsut omit this?? ***/
-        
+
         protected ICommandHandlerAsync<T> _commandHandler;
 
         private readonly AmqpSessionFactory _sessionFactory;
