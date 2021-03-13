@@ -9,7 +9,7 @@ namespace Rodasnet.Infrastructure.UnitTests
             return new SessionConfiguration
             {
                 Policy = "Policy_Name",
-                Key    = "00000000000000000",
+                Key    = "00000000000000000000000",
                 NamespaceUrl = "target.servicebus.rodasnet.net",
                 Topic  = "Event_Or_Command",
                 Link   = "Amqp_Link_Name"
