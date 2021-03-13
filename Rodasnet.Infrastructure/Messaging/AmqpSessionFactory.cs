@@ -1,7 +1,7 @@
-﻿namespace Rodasnet.Infrastructure.Messaging
-{
-    using System.Net;
+﻿using System.Net;
 
+namespace Rodasnet.Infrastructure.Messaging
+{
     public abstract class AmqpSessionFactory
     {
         public string LinkName { get; internal set; }

@@ -1,8 +1,8 @@
-﻿namespace Rodasnet.Infrastructure.Messaging
-{
-    using System.Collections.Generic;
-    using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 
+namespace Rodasnet.Infrastructure.Messaging
+{
     public static class EventBusExtensions
     {
         public static void Publish(this IEventBus bus, IEvent @event)

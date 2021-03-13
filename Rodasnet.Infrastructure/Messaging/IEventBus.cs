@@ -1,6 +1,8 @@
-﻿namespace Rodasnet.Infrastructure.Messaging
+﻿using System.Collections.Generic;
+ 
+namespace Rodasnet.Infrastructure.Messaging
 {
-    using System.Collections.Generic;
+   
 
     /// <summary>
     /// An event bus that sends serialized object payloads.

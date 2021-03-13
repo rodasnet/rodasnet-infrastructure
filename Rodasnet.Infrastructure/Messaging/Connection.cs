@@ -1,11 +1,10 @@
-﻿namespace Rodasnet.Infrastructure.Messaging
-{
-    using Amqp;
-    using Amqp.Framing;
-    using Amqp.Handler;
-    using Amqp.Sasl;
-    using System.Net;
+﻿using Amqp;
+using Amqp.Framing;
+using Amqp.Handler;
+using Amqp.Sasl;
 
+namespace Rodasnet.Infrastructure.Messaging
+{
     public class Connection : Amqp.Connection
     {
         public Connection(Address address) : base(address)

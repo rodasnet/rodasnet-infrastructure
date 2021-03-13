@@ -1,7 +1,7 @@
-﻿namespace Rodasnet.Infrastructure.Messaging
-{
-    using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
+namespace Rodasnet.Infrastructure.Messaging
+{
     public interface ICommandBus
     {
         void Send(Envelope<ICommand> command);

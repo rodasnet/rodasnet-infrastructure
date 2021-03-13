@@ -1,9 +1,9 @@
-﻿namespace Rodasnet.Infrastructure.Messaging
-{
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
+namespace Rodasnet.Infrastructure.Messaging
+{
     /// <summary>
     /// Provides usability overloads for <see cref="ICommandBusAsync"/>
     /// </summary>

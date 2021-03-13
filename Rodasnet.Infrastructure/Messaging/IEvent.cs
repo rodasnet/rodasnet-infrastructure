@@ -1,7 +1,7 @@
-﻿namespace Rodasnet.Infrastructure.Messaging
-{
-    using System;
+﻿using System;
 
+namespace Rodasnet.Infrastructure.Messaging
+{
     public interface IEvent
     {
         Guid SourceId { get; }

@@ -1,9 +1,9 @@
-﻿namespace Rodasnet.Infrastructure.Messaging
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
+namespace Rodasnet.Infrastructure.Messaging
+{
     interface IMessageReceiverAsync
     {
     }

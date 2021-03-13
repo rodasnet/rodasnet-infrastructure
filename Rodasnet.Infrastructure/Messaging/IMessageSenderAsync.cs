@@ -1,8 +1,8 @@
-﻿namespace Rodasnet.Infrastructure.Messaging
-{
-    using System.Threading.Tasks;
-    using System;
+﻿using System.Threading.Tasks;
+using System;
 
+namespace Rodasnet.Infrastructure.Messaging
+{
     public interface IMessageSenderAsync
     {
         /// <summary>

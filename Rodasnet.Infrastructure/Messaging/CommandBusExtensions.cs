@@ -1,8 +1,8 @@
-﻿namespace Rodasnet.Infrastructure.Messaging
-{
-    using System.Collections.Generic;
-    using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 
+namespace Rodasnet.Infrastructure.Messaging
+{
     /// <summary>
     /// Provides usability overloads for <see cref="ICommandBus"/>
     /// </summary>
